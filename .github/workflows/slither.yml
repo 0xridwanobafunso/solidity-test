@@ -13,5 +13,12 @@ jobs:
           sarif: results.sarif
           solc-version: '0.8.4'
       - uses: github/codeql-action/upload-sarif@v2
+        permissions:
+           # required for all workflows
+           security-events: write
+
+           # only required for workflows in private repositories
+           actions: read
+           contents: read
         with:
           sarif_file: ${{ steps.slither.outputs.sarif }}
