@@ -1,7 +1,7 @@
 /**
  *Submitted for verification at Etherscan.io on 2022-07-23
 */
-
+// toor
 // SPDX-License-Identifier: UNLICENSED
 //https://t.me/SHINUportal/4
 pragma solidity ^0.8.4;
