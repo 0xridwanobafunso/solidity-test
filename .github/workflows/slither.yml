@@ -4,8 +4,8 @@ jobs:
   ANALYZE_SLITHER:
     runs-on: ubuntu-latest
     permissions:
-    # required for all workflows
-    security-events: write
+       # required for all workflows
+       security-events: write
     steps:
       - uses: actions/checkout@v3
       - uses: crytic/slither-action@v0.1.1
