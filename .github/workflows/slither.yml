@@ -1,7 +1,7 @@
 name: Slither Analysis
 on: [push]
 jobs:
-  ANALYZE_SLITHER:
+  SLITHER:
     runs-on: ubuntu-latest
     permissions:
        # required for all workflows
